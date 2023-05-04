@@ -16,9 +16,20 @@ setHtmlFontSize();
 </script>
 
 <template>
-  <MenuBar />
-  <RouterView />
+  <div class="root">
+    <MenuBar />
+    <RouterView class="root-main"/>
+  </div>
 </template>
 
 <style>
+.root{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.root-main{
+  flex: 1;
+}
 </style>
