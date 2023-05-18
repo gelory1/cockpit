@@ -1,11 +1,11 @@
 <template>
   <div class="Overview">
-    <Region></Region>
+    <region></region>
   </div>
 </template>
 
 <script setup>
-import Region from './Region.vue'
+import region from '../components/overView/region.vue'
 </script>
 
 <style>
