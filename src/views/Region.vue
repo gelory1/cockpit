@@ -34,13 +34,13 @@ onMounted(() => {
           show: true
         },
         itemStyle: {
-          areaColor: `#8a8a8a`,
-          borderColor: `#006075`,
+          areaColor: '#133752',
+          borderColor: '#3c90c9',
           borderWidth: 1,
           shadowBlur: 4,
           shadowOffsetY: 0,
           shadowOffsetX: 0,
-          shadowColor: `white`
+          shadowColor: `rgb(56, 125, 194)`
         },
         // data: [
         //   { name: '中西区', value: 20057.34 },
@@ -91,5 +91,7 @@ onMounted(() => {
 </script>
 
 <style>
-  .Region{}
+  .Region{
+    width: 100%;height: 100%;
+  }
 </style>

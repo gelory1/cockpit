@@ -7,6 +7,9 @@ import router from './router'
 import './assets/main.css'
 
 import * as echarts from 'echarts';
+import { Map3DChart } from 'echarts-gl/charts';
+
+echarts.use([Map3DChart]);
 
 
 const app = createApp(App)
